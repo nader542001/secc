@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.big-head{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.line{
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: rgb(131, 131, 238);
+    margin: auto;
+    margin-top: 10px;
+}
+.container-big{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px; 
+    
+    
+
+}
+
+.content1,.content2,.content3{
+    width: 500px;
+    height: 670px;
+    float: left;
+    border: 1px solid rgb(233, 230, 230);
+    background-color: white;
+}
+.content1,.content2,.content3{
+    position: relative;
+}
+
+.content1::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 0;
+        left: 0;
+        background-color: rgb(127, 178, 255);
+        opacity: .5;
+        transition: 1s;
+}
+.content1:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.content2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgb(127, 178, 255);
+    opacity: .5;
+    transition: 1s;
+}
+.content2:hover::after{
+width: 100%;
+height: 100%;
+}
+.content3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgb(127, 178, 255);
+    opacity: .5;
+    transition: 1s;
+}
+.content3:hover::after{
+width: 100%;
+height: 100%;
+}
+
+.content2{
+    margin: 0px 105px ;
+}
+.img1,.img2,.img3{
+    margin-left: 20px;
+    height: 300px;
+}
+.icon1,.icon2,.icon3{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(0, 174, 255);
+    font-size: 15px;
+}
+h2,p{
+    margin-left:20px ;
+    margin-top: 30px;
+}
+p{
+    color: gray;
+    line-height: 25px;
+    font-weight: 20px;
+    margin-bottom: 30px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+.main{
+
+}
